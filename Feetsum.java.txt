@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class Main{
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    double inches = sc.nextDouble();
+    double feet = inches*0.08333;
+    System.out.printf("%.2f",feet);
+  }
+}
